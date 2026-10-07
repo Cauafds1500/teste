@@ -26,7 +26,7 @@ const char* WIFI_SENHA = "";
 // Exemplos:
 // - Wokwi / Nuvem / Túnel: "https://meu-backend.exemplo.com/api/support"
 // - ESP32 Físico na mesma rede Wi-Fi do PC: "http://192.168.1.100:5000/api/support"
-const char* SERVIDOR = "https://botao-timao1.vercel.app/api/support";
+const char* SERVIDOR = "https://teste-91g3.onrender.com/api/support";
 
 const int CADEIRA = 1;
 
