@@ -10,7 +10,7 @@ interface HistoryItem {
 
 export default function App() {
   const [backendUrl, setBackendUrl] = useState<string>(() => {
-    return localStorage.getItem('arena_voice_backend_url') || 'http://localhost:5000';
+    return localStorage.getItem('arena_voice_backend_url') || 'https://teste-91g3.onrender.com';
   });
   const [connectionStatus, setConnectionStatus] = useState<'CONECTADO' | 'RECONECTANDO' | 'DESCONECTADO'>('DESCONECTADO');
   const [lastSupportedSeat, setLastSupportedSeat] = useState<number | null>(null);
